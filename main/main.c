@@ -141,9 +141,7 @@ static esp_err_t mqtt_event_handler(esp_mqtt_event_handle_t event)
         break;
     case MQTT_EVENT_BEFORE_CONNECT:
         ESP_LOGD(TAG, "MQTT_EVENT_BEFORE_CONNECT");
-        break;
-    case MQTT_EVENT_DELETED:
-        break;    
+        break; 
     }
     return ESP_OK;
 }
